@@ -1,36 +1,26 @@
 ---
 title: Home page
 ---
---- start-multi-column: ExampleRegion1  
-```column-settings  
-number of columns: 2  
-Border: disabled
-Shadow: disabled
-largest column: right
-```
 
-![[Pasted image 20240927161403.png]] 
-
---- end-column ---
+![[Pasted image 20240927161403.png||250]] 
 
 Hi all, I am Marco Zecchini.
 
 I am a Research Assistant [Department of Computer, Control and Management Engineering (DIAG)](https://www.dis.uniroma1.it/) of [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 My research interests are Cryptography and Blockchain technology.
-
---- end-multi-column
 # Publications
 
+```req 
+url: https://dblp.org/search/publ/api?q="Marco Zecchini"$&format=json
+show: result -> hits -> hit -> {..} -> info
+req-id: dblp
+disabled
+```
 
-```dataviewjs
-for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).groupBy(p => p.genre)) {
-	dv.header(3, group.key);
-	dv.table(["Name", "Time Read", "Rating"],
-		group.rows
-			.sort(k => k.rating, 'desc')
-			.map(k => [k.file.link, k["time-read"], k.rating]))
-}
+
+```dataview
+dv.paragraph(localStorage.getItem("req-dblp"))
 ```
 
 
