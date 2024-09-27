@@ -11,19 +11,7 @@ I am a Research Assistant [Department of Computer, Control and Management Engine
 My research interests are Cryptography and Blockchain technology.
 # Publications
 
-```req 
-url: https://dblp.org/search/publ/api?q="Marco Zecchini"$&format=json
-show: result -> hits -> hit -> {..} -> info
-req-id: dblp
-disabled
-```
-
-
-```dataview
-dv.paragraph(localStorage.getItem("req-dblp"))
-```
-
-
+To have  a look on my publications visit my [DBLP profile](https://dblp.org/pid/258/2353.html)
 
 # Prior Roles
 
