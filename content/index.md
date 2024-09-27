@@ -1,15 +1,26 @@
 ---
 title: Home page
 ---
+--- start-multi-column: ExampleRegion1  
+```column-settings  
+number of columns: 2  
+Border: disabled
+Shadow: disabled
+largest column: right
+```
+
 ![[Pasted image 20240927161403.png]] 
+
+--- end-column ---
 
 Hi all, I am Marco Zecchini.
 
 I am a Research Assistant [Department of Computer, Control and Management Engineering (DIAG)](https://www.dis.uniroma1.it/) of [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
-My research interests are XXXX.
+My research interests are Cryptography and Blockchain technology.
 
-# Pubblications
+--- end-multi-column
+# Publications
 
 
 ```dataviewjs
@@ -30,9 +41,10 @@ for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).grou
 
 * [04/2022 - 09/2022] **Visitor Researcher at TUHH** at the CDL-BOT laboratory ran by Prof. Stefan Schulte.
 
-- [11/2019 - 01/2023] **Ph.D. Candidate in Data Science** at the Department of Computer, Control, and Management Engineering of Sapienza University of Rome
+- [11/2019 - 01/2023] **Ph.D. Candidate in Data Science** at the Department of Computer, Control, and Management Engineering of Sapienza University of Rome under the supervision of Prof. Andrea Vitaletti.
 
-## Education
+# Education
+
 * [11/2019 - 01/2023] **PhD In Data Science** at the Department of Computer, Control, and Management Engineering of Sapienza University of Rome 
 
 - [09/2016 - 10/2018] **MSc in Computer Engineering** at Sapienza University of Rome.
