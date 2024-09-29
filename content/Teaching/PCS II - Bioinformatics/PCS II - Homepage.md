@@ -27,7 +27,7 @@ The detailed program of the course and the corresponding material is available o
 
 ## Reference book and material
 
-* [@jonasBionformatics](): NEIL C. JONES AND PAVEL A. PEVZNER: ***An Introduction to Bioinformatics Algorithms***, A Bradford Book, The MIT Press, Cambridge, Massachusetts, London, England, 2004. [pdf](https://eclass.uoa.gr/modules/document/file.php/NURS565/BioinformaticsAlgsBook.pdf)
+* [@jonasBionformatics](https://eclass.uoa.gr/modules/document/file.php/NURS565/BioinformaticsAlgsBook.pdf): NEIL C. JONES AND PAVEL A. PEVZNER: ***An Introduction to Bioinformatics Algorithms***, A Bradford Book, The MIT Press, Cambridge, Massachusetts, London, England, 2004.
 
 ## Tentative detailed program
 
