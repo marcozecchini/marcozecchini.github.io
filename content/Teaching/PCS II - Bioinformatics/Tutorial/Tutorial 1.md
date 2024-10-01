@@ -63,4 +63,15 @@ for row in reader:
 ifile.close()
 ofile.close()
 ``` 
+
 # Pandas
+A smarter and more abstract tool to handle `.csv` files is another Python tool named [Pandas](https://pandas.pydata.org/)
+
+We use Pandas to:
+1. **Manipulate** data. More details available at this [presentation](https://docs.google.com/presentation/d/1qZ45rL9kzti_z2yL2EYs8TFFDsCBBY6V/edit?usp=sharing&ouid=113320648382378755454&rtpof=true&sd=true).
+2. **Visualize and plot** data. More details available at this [presentation](https://docs.google.com/presentation/d/182TDzx4_aH5FOQfr2fP3j4N5dYejSLbo/edit?usp=sharing&ouid=113320648382378755454&rtpof=true&sd=true)
+
+Let us see Pandas in action now:
+1. Download this [Jupiter Notebook](https://drive.google.com/file/d/1PqoMw3AvZizWaN8R4-eQnUf5xb2g8raA/view?usp=sharing)
+2. Run the Jupiter Notebook in Visual Studio Code ([more details here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)) on the `.csv` dataset [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing)
+3. Complete this exercise [Jupiter Notebook](https://drive.google.com/file/d/1v2BwfooCGiYboz-xLoCKh5urVjKsGlv4/view?usp=sharing) on the same dataset.
