@@ -24,6 +24,43 @@ Monty Python's Life Of Brian,1979,Terry Jones
 Monty Python Live At The Hollywood Bowl,1982,Terry Hughes
 Monty Python's The Meaning Of Life,1983,Terry Jones
 ```
-* Execute the examples in this [tutorial](http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/) on this newly saved `.csv` file.
+2. We execute part of this [tutorial](http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/) on this newly saved `.csv` file:
+	1. Run this example on reading a .csv file
+		```python
+import csv
+ 
+ifile = open(‘test.csv’, “rb”)
+reader = csv.reader(ifile)
+ 
+rownum = 0
+for row in reader:
+# Save header row.
+	if rownum ==0:
+		header = row
+	else:
+		colnum = 0
+	for col in row:
+		print ‘%-8s: %s’ % (header[colnum], col)
+	colnum + = 1
+ 
+rownum + = 1
+ 
+ifile.close()
+```
 
+	2. Run this example on writing a .csv file
+		```python
+import csv
+ 
+ifile  = open('test.csv', "rb")
+reader = csv.reader(ifile)
+ofile  = open('ttest.csv', "wb")
+writer = csv.writer(ofile, delimiter='', quotechar='"', quoting=csv.QUOTE_ALL)
+ 
+for row in reader:
+    writer.writerow(row)
+ 
+ifile.close()
+ofile.close()
+``` 
 # Pandas

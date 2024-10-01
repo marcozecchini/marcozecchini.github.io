@@ -10,8 +10,12 @@ I am a Research Assistant [Department of Computer, Control and Management Engine
 
 My research interests are Cryptography and Blockchain technology.
 # Publications
+Take a look to the list below...
 
-To have  a look on my publications visit my [DBLP profile](https://dblp.org/pid/258/2353.html)
+
+<iframe src="https://bibbase.org/show?bib=https://dblp.org/pid/258/2353.bib&noBootstrap=1" width="100%" height="400"></iframe>
+
+... or visit my [DBLP profile](https://dblp.org/pid/258/2353.html).
 
 # Prior Roles
 
