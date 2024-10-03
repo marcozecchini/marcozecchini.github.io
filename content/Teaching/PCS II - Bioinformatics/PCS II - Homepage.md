@@ -29,6 +29,10 @@ The detailed program of the course and the corresponding material is available o
 
 * [@jonasBionformatics](https://eclass.uoa.gr/modules/document/file.php/NURS565/BioinformaticsAlgsBook.pdf): NEIL C. JONES AND PAVEL A. PEVZNER: ***An Introduction to Bioinformatics Algorithms***, A Bradford Book, The MIT Press, Cambridge, Massachusetts, London, England, 2004.
 
+## Contact and discussion
+
+All announcements and discussions will be carried out through [Google Classroom qazymsj](https://classroom.google.com/c/NzE4Mzc2NTI0NzE2?cjc=qazymsj). In Google Classroom, you are going to find a link to a Telegram that we share to discuss and talk.
+
 ## Tentative detailed program
 
 | Theoretical lecture                            | Date | Material                                                                                                                                                                                                                                                                     | Practical Lecture                            | Date | Material |
