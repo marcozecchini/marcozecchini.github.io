@@ -9,6 +9,10 @@ Hi all, I am Marco Zecchini.
 I am a Research Assistant at the [Department of Computer, Control and Management Engineering (DIAG)](https://www.dis.uniroma1.it/) of [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 My research interests are Cryptography and Blockchain technology.
+## News
+
+* The work [Trust Nobody: Privacy-Preserving Proofs for Edited Photos with Your Laptop](https://eprint.iacr.org/2024/1074) that I co-authored with Pierpaolo Della Monica, Ivan Visconti and Andrea Vitaletti has been accepted to [IEEE Symposium on Security and Privacy (S&P) 2025](https://sp2025.ieee-security.org/)!
+
 # Publications
 
 Take a look to the list below...
