@@ -25,6 +25,8 @@ Let us do the following steps, now:
 This is my first commit.
 ```
 8.  [Publish local repository to Github](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_publish-local-repository-to-github)
+	1. If you accidentally pushed `Initialize`, execute this [step](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_staging-and-committing-code-changes) to commit the changes...
+	2. ...and, then, this [step](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_pushing-and-pulling-remote-changes) to publish the commit to the remote repository
 9. Edit the `README.md` file with:
 ```markdown
 # Welcome
