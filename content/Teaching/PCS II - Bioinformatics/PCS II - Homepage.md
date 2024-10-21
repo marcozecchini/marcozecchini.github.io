@@ -61,4 +61,6 @@ The course will be evaluated based on the performance of (a) the individual assi
 
 A total of five assignments will be handed over. These assignments are done by each student individually. Clearly you should discuss with other students of the course about the assignments. However, you must understand well your solutions and the final writeup must be yours and written in isolation. In addition, even though you may discuss about how you could implement an algorithm, what type of libraries to use, and so on, the final code must be yours. You may also consult the internet for information, as long as it does not reveal the solution. If a question asks you to design and implement an algorithm for a problem, it's fine if you find information about how to resolve a problem with character encoding, for example, but it is not fine if you search for the code or the algorithm for the problem you are being asked. For the projects, you can talk with other students of the course about questions on the programming language, libraries, some API issue, and so on, but both the solutions and the programming must be yours. If you have violated the policy and you have copied in any way you will automatically fail. If you have any doubts about whether something is allowed or not, ask the instructor.
 
-
+| Assignments      | Deadline                                 |
+| ---------------- | ---------------------------------------- |
+| [[Assignment 1]] | **November 3rd, 23:59 Rome/Europe time** |
