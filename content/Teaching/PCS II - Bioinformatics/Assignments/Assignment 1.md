@@ -4,14 +4,14 @@ draft: true
 tags:
   - teaching
 ---
-**DEADLINE: **
+**DEADLINE: November 3rd, 23:59 Rome/Europe time.**
 
 [https://www.rosalind.info/](https://www.rosalind.info/)  
   
-Complete the following **challenges**:  
-dna, rna, revc, iprb, fib, gc, prot, subs, hamm, fibd, mrna, lia, prtm, lcsm, tran, cons  
+Complete the following **challenges** from *Bioinformatics Stronghold*:  
+dna, rna, revc, iprb, fib, gc, prot, subs, hamm
+
+Complete the following **challenges** from *Algorithmic Heights*: 
+ins, mer, par, par3, med, qs, hea, hs, ps
   
 Create a GitHub repository and upload the code for each exercise on a separate python file. Submit the Github repository link on [Google Classroom qazymsj](https://classroom.google.com/c/NzE4Mzc2NTI0NzE2?cjc=qazymsj).
-
-## Example of good presentation on Github Repository
-https://github.com/cecilia-dc/PCS2023_First-Assignment
