@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 2:  10-10-2024"
+title: "Tutorial 2:  14-10-2024"
 draft: false
 tags:
   - teaching
