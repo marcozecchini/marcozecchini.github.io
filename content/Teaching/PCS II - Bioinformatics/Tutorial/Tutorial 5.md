@@ -5,7 +5,7 @@ tags:
   - teaching
 ---
 In this tutorial, we will do an exercise on Dynamic Programming from Hackerrank.
-## Hackerrank
+## Hackerrank - Coin Challenge Problem
 
 Complete the following **challenge** from Hackerrank: [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem?isFullScreen=true) 
 
@@ -170,3 +170,7 @@ With all of the above in mind, write a program that:
 	1. Make a comparison to each index value of ways with the coin value
 	2. Update the ways array
 4.  Return the value at the Nth position of the ways array.
+
+## Hackerrank - Unbounded Knapsack problem
+
+Complete the following **challenge** from Hackerrank: [Unbouded Knapsack Problem](https://www.hackerrank.com/challenges/unbounded-knapsack/problem?isFullScreen=true) 
