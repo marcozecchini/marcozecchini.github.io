@@ -9,6 +9,8 @@ In this tutorial, we will do an exercise on Dynamic Programming from Hackerrank.
 
 Complete the following **challenge** from Hackerrank: [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem?isFullScreen=true) 
 
+## Hints
+
 **Example 1**: Suppose you are given the coins 1 cent, 5 cents, and 10 cents with N = 8 cents, what are the total number of combinations of the coins you can arrange to obtain 8 cents. 
 
 ```
@@ -43,6 +45,7 @@ Explanation:
 ```
 
  Remember the idea behind dynamic programming is to cut each part of the problem into smaller pieces. Similar to the example at the top of the page. If we don’t know the value of 4 * 36 but know the value of 4 * 35 (140), we can just add 4 to that value and get our answer for 4 * 36 which by the way is 144.   
+ 
 Okay so we understand what we have to do, but how is a program going to determine how many ways the list of coins can output N? Well lets look that this example. 
 ```
 N = 12         
@@ -164,13 +167,13 @@ Thus we get the following.
 So the answer to our example is ways[12] which is 4.
 
 With all of the above in mind, write a program that:
-1. Create the ways array to 1 plus the amount to stop overflow
-2. Set the first way to 1 because its 0 and  there is 1 way to make 0 with 0 coins
+1. Create the `ways` array of the size of the `N`  plus 1 to stop overflow
+2. Set the first element of `ways` to 1 because it is 0 and there is 1 way to make 0 with 0 coins
 3. Go through all of the coins, then for each coin
 	1. Make a comparison to each index value of ways with the coin value
 	2. Update the ways array
-4.  Return the value at the Nth position of the ways array.
+4.  Return the value at the `N`th position of the ways array.
 
-## Hackerrank - Unbounded Knapsack problem
+## Rosalind exercise
 
-Complete the following **challenge** from Hackerrank: [Unbouded Knapsack Problem](https://www.hackerrank.com/challenges/unbounded-knapsack/problem?isFullScreen=true) 
+Do this exercise: https://rosalind.info/problems/lgis/
