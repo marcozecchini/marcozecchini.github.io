@@ -5,7 +5,7 @@ draft: false
 **DEADLINE: November 17th, 23:59 Rome/Europe time.**
  
 Complete the following **challenges** from [*Bioinformatics Stronghold*](https://rosalind.info/problems/tree-view/):  
-grph, tree, long, corr, inod, nwck, nkew
+fibd, mrna, lia, prtm, lcsm, tran, cons, perm,revp
 
 Register to this [Hackerrank contest](https://www.hackerrank.com/assignment2-1730712032) and solve the **two challenges** in the contest.
   
