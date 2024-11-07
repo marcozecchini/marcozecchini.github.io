@@ -173,8 +173,8 @@ With all of the above in mind, write a program that:
 	1. Make a comparison to each index value of ways with the coin value
 	2. Update the ways array
 4.  Return the value at the `N`th position of the ways array.
-
-## ## Biopython
+ 
+## Biopython
 
 Open this [Jupiter Notebook](https://drive.google.com/file/d/1R1pJfK2Lsw2JejsIQTg7dMPqVsemc32s/view?usp=drive_link) and let us execute the command together.
 
