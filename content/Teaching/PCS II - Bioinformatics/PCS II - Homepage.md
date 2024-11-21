@@ -66,3 +66,4 @@ A total of five assignments will be handed over. These assignments are done by e
 | ---------------- | ----------------------------------------- |
 | [[Assignment 1]] | **November 3rd, 23:59 Rome/Europe time**  |
 | [[Assignment 2]] | **November 17th, 23:59 Rome/Europe time** |
+| [[Assignment 3]] | **December 4th, 23:59 Rome/Europe time**  |
