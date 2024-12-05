@@ -1,6 +1,6 @@
 ---
 title: Assignment 4
-draft: true
+draft: false
 ---
 **DEADLINE: December 18th, 23:59 Rome/Europe time**
 
