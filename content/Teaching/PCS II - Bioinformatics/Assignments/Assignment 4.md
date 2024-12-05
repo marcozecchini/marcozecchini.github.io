@@ -2,7 +2,7 @@
 title: Assignment 4
 draft: false
 ---
-**DEADLINE: December 18th, 23:59 Rome/Europe time**
+**DEADLINE: December 20th, 23:59 Rome/Europe time**
 
 [https://www.rosalind.info/](https://www.rosalind.info/)  
   
