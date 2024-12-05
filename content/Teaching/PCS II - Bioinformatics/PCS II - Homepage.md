@@ -73,3 +73,8 @@ A total of five assignments will be handed over. These assignments are done by e
 ## Oral Interview
 
 The procedure with which the oral interview will be conducted is going to be defined and explained to the class during a lecture. After that, I am going to post here a recap of the procedure.  
+
+| Exam     | Date |
+| -------- | ---- |
+| January  | 27th |
+| February | 19th |
