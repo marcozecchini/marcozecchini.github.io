@@ -34,6 +34,6 @@ For the Cloud Computing part, from AWS Academy, I am able to see if you have com
 
 For the EDA part, be sure to **make your profile public, because by default this is private**. Here, there is a guide to make it public: https://support.codesignal.com/hc/en-us/articles/22993936192535-Learn-profile-navigation
 
-Then, on [Google Classroom](https://classroom.google.com/c/NzE4Mzc2NTI0NzE2?cjc=qazymsj) share the screenshots of your **entire webpage** (this must include also the image of your account) of the **completed** lessons of the course. It follows an example:
+Then, on [Google Classroom](https://classroom.google.com/c/NzE4Mzc2NTI0NzE2?cjc=qazymsj) share the screenshots of your **entire webpage** (this must include also the image of your account) of the **completed** lessons (indicated with green) of the course. It follows an example:
 
 ![[Screenshot from 2025-01-07 11-11-34.png]]![[Screenshot from 2025-01-07 11-11-53.png]]![[Screenshot from 2025-01-07 11-12-03.png]]![[Screenshot from 2025-01-07 11-12-10.png]]![[Screenshot from 2025-01-07 11-12-15.png]]![[Screenshot from 2025-01-07 11-12-23.png]]![[Screenshot from 2025-01-07 11-12-29.png]]![[Screenshot from 2025-01-07 11-12-40.png]]
