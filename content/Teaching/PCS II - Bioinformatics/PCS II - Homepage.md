@@ -79,4 +79,4 @@ The procedure with which the oral interview will be conducted is going to be def
 | Exam     | Date |
 | -------- | ---- |
 | January  | 27th |
-| February | 19th |
+| February | 17th |
