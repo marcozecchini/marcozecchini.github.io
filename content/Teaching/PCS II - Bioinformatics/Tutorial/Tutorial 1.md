@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1:  7-10-2024"
-draft: false
+draft: true
 ---
 * Live notes about this first tutorial are available at this [link](https://docs.google.com/document/d/1MBCTsjYI_eCjCSZ8cmHlO3uz6LQUrWdAxeYsSKl18z0/edit?usp=sharing)
 # Visual Studio Code

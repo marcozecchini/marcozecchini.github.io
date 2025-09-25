@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 8:  5-12-2024"
-draft: false
+draft: true
 tags:
   - teaching
 ---
