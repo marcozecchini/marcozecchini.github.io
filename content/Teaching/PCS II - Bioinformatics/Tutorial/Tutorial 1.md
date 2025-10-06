@@ -1,8 +1,8 @@
 ---
-title: "Tutorial 1:  7-10-2024"
+title: "Tutorial 1:  6-10-2025"
 draft: true
 ---
-* Live notes about this first tutorial are available at this [link](https://docs.google.com/document/d/1MBCTsjYI_eCjCSZ8cmHlO3uz6LQUrWdAxeYsSKl18z0/edit?usp=sharing)
+
 # Visual Studio Code
 
 The preliminary step of this tutorial requires to install [Visual Studio Code](https://code.visualstudio.com/docs).
@@ -13,7 +13,35 @@ The preliminary step of this tutorial requires to install [Visual Studio Code](h
 
 Great! We are ready to move on to the next part of the tutorial.
 
-# CSV files in Python
+# Python Exercises
+## Exercise 1
+Write a simple function that, given a list of numbers, outputs a histogram based on these numbers, using asterisks to draw it.
+
+For example, given the list [3, 7, 9, 5], the function should produce this sequence:
+```
+***
+
+*******
+
+*********
+
+*****
+```
+
+## Exercise 2
+In Sweden, children often play using a somewhat peculiar language called *rövarspråket*: it consists of doubling every consonant in a word and inserting an “o” in the middle. For example, the word ‘mangiare’ (to eat) becomes “momanongogiarore.”
+
+  Write a function that can translate a word or phrase passed as input into *rövarspråket*. After translating a phrase, the program should ask the user if they want to translate another one, and if so, it should wait for the user to enter a new word.
+
+## Exercise 3
+
+You are given a list that contains integers. You need to  write a **function** that decrement each element of the list by 1 and return the list.
+
+## Exercise 4
+
+The task of finding the sum of all items in a [dictionary](https://www.geeksforgeeks.org/python/python-dictionary/) in Python involves calculating the total of all values stored in a dictionary. **For example,*** given a dictionary {'a': 100, 'b': 200, 'c': 300}, the sum of values would be 100 + 200 + 300 = 600.
+
+## Exercise 5: CSV files in Python
 
 In this tutorial, we see how to use Python to manage CSV files following an online tutorial. 
 1. Copy and save this snippet of code in a `.csv` file:
@@ -25,7 +53,7 @@ Monty Python's Life Of Brian,1979,Terry Jones
 Monty Python Live At The Hollywood Bowl,1982,Terry Hughes
 Monty Python's The Meaning Of Life,1983,Terry Jones
 ```
-2. Execute part of this [tutorial](https://www.geeksforgeeks.org/working-csv-files-python/) on this newly saved `.csv` file:
+2. Run the following examples on this newly saved `.csv` file (taken from this [tutorial](https://www.geeksforgeeks.org/working-csv-files-python/)) :
 
 	a. Run this example reading the previous `.csv` file
 
@@ -91,7 +119,7 @@ with open(filename, 'w') as csvfile:
 
 ``` 
 
-   d. Create a Python script that reads from the previous `.csv` file and a new one with the content below and create a third `.csv` file with the content of both the files (choose on the reading/writing technique from this tutorial)
+   d. Create a Python script that reads from the previous `.csv` file and create a new one with the content below and create a third `.csv` file with the content of both the files (choose on the reading/writing technique from this tutorial)
 	 
 ```csv
 Title,Release Date,Director
@@ -108,20 +136,20 @@ A smarter and more abstract tool to handle `.csv` files is another Python tool n
 
 We use Pandas to:
 1. **Manipulate** data. 
-2. **Visualize and plot** data combined with [matplotlib](https://matplotlib.org/) library
+2. **Visualize and plot** data combined with [matplotlib](https://matplotlib.org/) library (next time)
 
-## Install Pandas and Matplotlib
+## Install Pandas
 Install pandas following the instruction available at this [web page](https://pandas.pydata.org/docs/getting_started/install.html#installing-from-pypi).
-
-Install matplotlib following the instruction available at this [web page](https://matplotlib.org/stable/users/getting_started/). 
-## Manipulate and Visualize data
-Let us take a look at this [presentation](https://docs.google.com/presentation/d/1qZ45rL9kzti_z2yL2EYs8TFFDsCBBY6V/edit?usp=sharing&ouid=113320648382378755454&rtpof=true&sd=true).
+## Manipulate data
+Let us take a look at this [presentation](https://docs.google.com/presentation/d/1QPzic2Tw2mjvuKsbnQWSEt3qYdIZPMmD/edit?usp=drive_link&ouid=113320648382378755454&rtpof=true&sd=true).
 
 **Keeping Pandas API Documentation at hand with this [link](https://pandas.pydata.org/docs/reference/index.html)**, let us see Pandas in action now:
 1. Create a file named `ManipulateVisualize.ipynb`
 2. Run the Jupiter Notebook in Visual Studio Code ([more details here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)) on the `.csv` dataset [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing)
 3. Follow and repeat my instructions on your Jupiter!
 
-## Exercises
+## Exercise
 
-Complete this [exercise on Jupiter Notebook](https://drive.google.com/file/d/1P9mARbmxR9l9OwTwOUovRcLccQjnndYq/view?usp=drive_link) on the same dataset.
+Given [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing):
+- **Find the average salary by education level.**
+- **Find the person(s) with the highest salary** and display their `Job Title` and `Years of Experience`
