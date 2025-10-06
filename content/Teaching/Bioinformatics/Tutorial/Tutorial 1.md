@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1:  6-10-2025"
-draft: true
+draft: false
 ---
 
 # Visual Studio Code
