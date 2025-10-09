@@ -2,7 +2,6 @@
 title: "Tutorial 1:  6-10-2025"
 draft: false
 ---
-
 # Visual Studio Code
 
 The preliminary step of this tutorial requires to install [Visual Studio Code](https://code.visualstudio.com/docs).
