@@ -35,8 +35,9 @@ Let us take a look at this [presentation](https://docs.google.com/presentation/d
 
 Given [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing):
 - **Find the average salary by education level.**
-- **Find the person(s) with the highest salary** and display their `Job Title` and `Years of Experience`
+- **Add a new column** named `"Salary per Year of Experience"` computed as
 
+	$\text{Salary per Year} = \frac{\text{Salary}}{\text{Years of Experience}}$ 
 # Recursion 
 
 > Recursion is a way of programming or coding a problem, in which a function calls itself one or more times in its body. Usually, it is returning the return value of this function call. If a function definition fulfils the condition of recursion, we call this function a recursive function. 
