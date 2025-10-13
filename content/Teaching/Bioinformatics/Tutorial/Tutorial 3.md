@@ -6,7 +6,11 @@ tags:
 ---
 * Live notes about this tutorial are available at this [link](https://docs.google.com/document/d/1nqJGlonhyTOQKRbsc2n-KWqte2aQf72sEzId1DICzm8/edit?usp=sharing)
 
-In this tutorial we will see how Git and Github works and we will do some exercises on Sorting from Rosalind.
+In this tutorial we will ~~see how Git and Github works~~ and we will do some exercises on Sorting from Rosalind.
+
+## Data Visualization 
+
+Complete this [exercise on Jupiter Notebook](https://drive.google.com/file/d/1P9mARbmxR9l9OwTwOUovRcLccQjnndYq/view?usp=drive_link) on the same dataset.
 # Git and Github
 
 What are Git and Github? Let us see this [slides](https://sclipman.com/talk/github-talk/GitHubPresentation.pdf).
