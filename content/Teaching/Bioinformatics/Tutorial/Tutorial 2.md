@@ -14,6 +14,7 @@ Let us create a Virtual Environment following the steps in the video! Now watch 
 
 ![jupyter](https://www.youtube.com/watch?v=suAkMeWJ1yE)
 
+It is possible to use Jupyter Notebook on browser with [Google Colab](https://colab.research.google.com/)!
 # Pandas
 A smarter and more abstract tool to handle `.csv` files is another Python tool named [Pandas](https://pandas.pydata.org/)
 
@@ -53,14 +54,9 @@ Let us solve the following exercises, following this approach:
 
 ### Exercise 1
 Write a recursive function that accepts two numbers as its argument and returns its power.
-
 ### Exercise 2
 Write a recursive function that calculate sum of first n natural numbers.
-
 ### Exercise 3
-
 Write a program that reads two integers from keyboard and calculate the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (gcd) using recursive function
-
 ### Exercise 4
-
 Exercise on [Rosalind](https://rosalind.info/problems/rna/) on RNA.
