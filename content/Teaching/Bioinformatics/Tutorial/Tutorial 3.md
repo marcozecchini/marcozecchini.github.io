@@ -6,7 +6,7 @@ tags:
 ---
 ## Sum of Digits of an Integer Using Recursion
 
-Write a Python program to get the sum of a non-negative integer using recursion.
+Write a Python program to get the sum of the digits of a non-negative integer using recursion.
 
 ## Time and space complexity
 
