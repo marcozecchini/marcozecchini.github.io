@@ -1,20 +1,47 @@
 ---
 title: "Tutorial 3:  21-10-2024"
-draft: true
+draft: false
 tags:
   - teaching
 ---
-## Data Visualization 
+## Time and space complexity
 
-Complete this [exercise on Jupiter Notebook](https://drive.google.com/file/d/1P9mARbmxR9l9OwTwOUovRcLccQjnndYq/view?usp=drive_link) on the same dataset.
+> What is the time, and space complexity of the following code: 
 
-## Big Oh computation
+**Exercise 1**
 
-https://www.geeksforgeeks.org/dsa/practice-questions-time-complexity-analysis/
+```python
+a = 0
+b = 0
+for i in range(N):
+  a = a + random()
 
-# Rosalind
+for i in range(M):
+  b= b + random()
+```
 
-Register in [Rosalind](https://rosalind.info).
+**Exercise 2**
 
-Complete the following **challenges** from [this list in Rosalind](https://rosalind.info/problems/topics/sorting/):  
-INS, MAJ, MER, MS, INV, PAR, PAR3
+```python
+a = 0;
+for i in range(N):
+  for j in reversed(range(i,N)):
+    a = a + i + j;
+```
+
+**Exercise 3**
+
+```python
+k = 0;
+for i in range(n//2,n):
+  for j in range(2,n,pow(2,j)):
+        k = k + n / 2;
+```
+
+# Counting sort
+
+Do the following exercises: 
+1. https://www.hackerrank.com/challenges/countingsort1/problem
+2. https://www.hackerrank.com/challenges/countingsort2/problem
+
+Then, compute the time complexity and space complexity of counting sort.
