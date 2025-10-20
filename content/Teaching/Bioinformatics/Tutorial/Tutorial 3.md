@@ -4,11 +4,15 @@ draft: false
 tags:
   - teaching
 ---
+## Sum of Digits of an Integer Using Recursion
+
+Write a Python program to get the sum of a non-negative integer using recursion.
+
 ## Time and space complexity
 
-> What is the time, and space complexity of the following code: 
-
 **Exercise 1**
+
+> What is the time and space complexity of the following code: 
 
 ```python
 a = 0
@@ -22,6 +26,8 @@ for i in range(M):
 
 **Exercise 2**
 
+> What is the time complexity of the following code: 
+
 ```python
 a = 0;
 for i in range(N):
@@ -30,6 +36,8 @@ for i in range(N):
 ```
 
 **Exercise 3**
+
+> What is the time complexity of the following code: 
 
 ```python
 k = 0;
