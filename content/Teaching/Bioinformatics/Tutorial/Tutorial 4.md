@@ -1,6 +1,6 @@
 ---
-title: "Tutorial 4:  78-10-2025"
-draft: true
+title: "Tutorial 4:  27-10-2025"
+draft: false
 tags:
   - teaching
 ---
