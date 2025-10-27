@@ -4,6 +4,13 @@ draft: true
 tags:
   - teaching
 ---
+## Data Visualization 
+
+Complete this [exercise on Jupiter Notebook](https://drive.google.com/file/d/1P9mARbmxR9l9OwTwOUovRcLccQjnndYq/view?usp=drive_link) on the same dataset.
+
+---
+
+
 In this tutorial, we will do an exercise on Dynamic Programming from Hackerrank.
 ## Hackerrank - Coin Challenge Problem
 
