@@ -50,4 +50,4 @@ All announcements and discussions will be carried out through [Google Classroom 
  
 The course will be evaluated based on the performance of a written test.
 
-We will discuss during the lectures how the evaluation works in more details.
+We will discuss during the lectures how the evaluation works in more details. Here some details: [slides](https://docs.google.com/presentation/d/1f7oCibnWsmWmUEJDzzUIsDUE2NLzQe-qh6casfNoxDs/edit?usp=sharing)
