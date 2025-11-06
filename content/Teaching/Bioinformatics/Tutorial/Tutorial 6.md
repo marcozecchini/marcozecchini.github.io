@@ -10,6 +10,8 @@ Open this [Gdrive folder](https://drive.google.com/drive/folders/1mHLPa0EIPznmFH
 
 Then, let's do the exercise at the bottom of the notebook. 
 
+https://www.w3resource.com/python-exercises/map/index.php
+
 ## Dynamic Programming exercise
 
 Solve this exercise on the `unbounded knapsack problem` from Hackerrank: https://www.hackerrank.com/challenges/unbounded-knapsack/problem?isFullScreen=true
