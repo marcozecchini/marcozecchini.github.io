@@ -52,14 +52,14 @@ The course will be evaluated based on the performance of a written test.
 
 We will discuss during the lectures how the evaluation works in more details. Here some details: [slides](https://docs.google.com/presentation/d/1f7oCibnWsmWmUEJDzzUIsDUE2NLzQe-qh6casfNoxDs/edit?usp=sharing)
 
-## Exam date
+## Exam dates
 
-| Date       | Note                                                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 12/01/2026 |                                                                                                                                                                                    |
-| 9/02/2026  |                                                                                                                                                                                    |
-| 13/04/2026 | Extraordinary session only for students respecting this regulation (Article 40, Paragraph 6, [https://www.uniroma1.it/en/content/exams](https://www.uniroma1.it/en/content/exams)) |
-| 08/06/2026 |                                                                                                                                                                                    |
-| 13/07/2026 |                                                                                                                                                                                    |
-| 14/09/2026 |                                                                                                                                                                                    |
-| 13/10/2026 | Extraordinary session only for students respecting this regulation (Article 40, Paragraph 6, [https://www.uniroma1.it/en/content/exams](https://www.uniroma1.it/en/content/exams)) |
+| Date       | Note                                                                                                                                                                              |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12/01/2026 |                                                                                                                                                                                   |
+| 9/02/2026  |                                                                                                                                                                                   |
+| 13/04/2026 | Extraordinary session only for students respecting this regulation: Article 40, Paragraph 6, [https://www.uniroma1.it/en/content/exams](https://www.uniroma1.it/en/content/exams) |
+| 08/06/2026 |                                                                                                                                                                                   |
+| 13/07/2026 |                                                                                                                                                                                   |
+| 14/09/2026 |                                                                                                                                                                                   |
+| 13/10/2026 | Extraordinary session only for students respecting this regulation: Article 40, Paragraph 6, [https://www.uniroma1.it/en/content/exams](https://www.uniroma1.it/en/content/exams) |
