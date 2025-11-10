@@ -108,9 +108,12 @@ So at every `i`, the **decision** is always:
 
 > _Include fragment i (and jump back to the last compatible one) or exclude it._
 
-### **How many variables do we have in our subproblem?**
+---
+### **How many state variables do we have in our subproblems?**
 
-We have **one variable** in our subproblem:
+Our subproblem only needs to remember _how far_ we’ve gone in the sorted list of fragments.
+
+We have **1 state variable** in our subproblem:
 
 > the **index `i`** of the fragment we’re considering (after sorting by end time).
 
@@ -120,11 +123,7 @@ Each subproblem asks:
 
 So the dynamic programming table `dp[i]` has **one dimension** — it depends only on how many fragments we’ve considered so far.
 
-Hence:  
-$\text{num of variables} = 1$
-
----
-### **How big are the variables?**
+### **How big is the set of the variables?**
 
 The variable `i` ranges over all fragments:  
 
@@ -132,13 +131,7 @@ $i \in {0, 1, 2, \dots, n}$
 
 So there are **n + 1** possible subproblems (including the base case `i = 0`).
 
-Each subproblem is solved in $O(1)$ once we know `p(i)` —  
+Each subproblem is solved in $O(1)$ once we know `p(i)` 
 and computing all `p(i)` values requires $O(n \log n)$ (via binary search after sorting).
 
-| Concept             | Meaning                       |
-| ------------------- | ----------------------------- |
-| Subproblem variable | Index `i` (fragment position) |
-| Dimension           | 1D                            |
-| Range               | `0 … n`                       |
-| # of subproblems    | `n + 1`                       |
-| Time per subproblem | `O(1)` (after preprocessing)  |
+
