@@ -69,7 +69,7 @@ def countWays(n: int) -> int:
 
 Think recursively first:  
 
-			$ways(n) = ways(n-1) + ways(n-2)$
+$ways(n) = ways(n-1) + ways(n-2)$
 
 (because from step `n` you could have come either from `n-1` or from `n-2`)
 
