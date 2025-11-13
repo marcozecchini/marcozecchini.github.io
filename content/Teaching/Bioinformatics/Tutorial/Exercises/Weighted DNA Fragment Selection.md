@@ -76,7 +76,7 @@ def maxFragmentQuality(intervals: Jobs) -> int:
 
 ![[Pasted image 20251110124951.png]]
 
-[[Weighted DNA Fragment Selection - ANSWERS]]
+[[ANSWERS - Weighted DNA Fragment Selection]]
 ##  Guided steps
 
 1. Sort the fragments by **end position**.
