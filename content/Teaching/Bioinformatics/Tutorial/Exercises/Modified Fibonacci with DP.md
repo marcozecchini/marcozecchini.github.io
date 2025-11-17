@@ -1,3 +1,10 @@
+---
+title: Modified Fibonacci with DP
+tags:
+  - DP
+  - teaching
+---
+
 ## Description
 Implement a **modified Fibonacci sequence** using the following definition:
 

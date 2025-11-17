@@ -3,6 +3,7 @@ title: Weighted DNA Fragment Selection - GUIDED
 draft: false
 tags:
   - teaching
+  - DP
 ---
 # Write the problem out - i.e., understand the problem
 ### **What is the problem?**
