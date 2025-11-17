@@ -80,7 +80,7 @@ def maxFragmentQuality(intervals: Jobs) -> int:
 [[Weighted DNA Fragment Selection - GUIDED]]
 ##  Guided steps
 
-1. Sort the fragments by **end position**.
+1. Sort the fragments by **end position** (to sort `Job` objects use the function [`sorted`](https://www.w3schools.com/python/ref_func_sorted.asp) properly setting `key`).
 2. For each fragment `i`, find the last fragment `p(i)` that finishes **before** `i` starts.
 3. Define:  
 			$dp[i] = \max( w_i + dp[p(i)],\ dp[i-1] )$  
