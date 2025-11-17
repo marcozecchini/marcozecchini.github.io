@@ -3,6 +3,7 @@ title: Ways to climb stairs
 draft: false
 tags:
   - teaching
+  - DP
 ---
 In a lab experiment, a biologist is studying how a **cell** accumulates energy to activate a certain biochemical process.  
 Every few seconds, the cell can **absorb** small energy packets from its environment — but not all packets have the same intensity.

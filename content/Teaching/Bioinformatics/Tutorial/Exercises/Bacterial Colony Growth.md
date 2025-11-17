@@ -1,8 +1,9 @@
 ---
-title: note on exercises
+title: Bacterial Colony Growth
 draft: true
 tags:
   - teaching
+  - DP
 ---
 ## Context
 A microbiologist is studying the growth of a bacterial colony in a petri dish.  

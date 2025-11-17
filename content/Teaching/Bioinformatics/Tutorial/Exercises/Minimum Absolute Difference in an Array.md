@@ -1,3 +1,11 @@
+---
+title: Minimum Absolute Difference in an Array
+tags:
+  - teaching
+  - greedy
+---
+
+
 ## Problem Description
 
 Given an array of integers, find the **minimum absolute difference** between any two of its elements.

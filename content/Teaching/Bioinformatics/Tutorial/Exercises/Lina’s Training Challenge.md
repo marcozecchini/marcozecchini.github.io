@@ -1,3 +1,11 @@
+---
+title: Lina’s Training Challenge
+tags:
+  - teaching
+  - greedy
+---
+
+
 ## Problem Description
 
 Lina is training for a marathon.  

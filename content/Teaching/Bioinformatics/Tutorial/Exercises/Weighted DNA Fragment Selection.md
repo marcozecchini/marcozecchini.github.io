@@ -3,6 +3,7 @@ title: Weighted DNA Fragment Selection
 draft: false
 tags:
   - teaching
+  - DP
 ---
 A bioinformatician is analyzing a DNA sample composed of multiple **sequence fragments**.  
 Each fragment:
@@ -76,7 +77,7 @@ def maxFragmentQuality(intervals: Jobs) -> int:
 
 ![[Pasted image 20251110124951.png]]
 
-[[ANSWERS - Weighted DNA Fragment Selection]]
+[[Weighted DNA Fragment Selection - GUIDED]]
 ##  Guided steps
 
 1. Sort the fragments by **end position**.

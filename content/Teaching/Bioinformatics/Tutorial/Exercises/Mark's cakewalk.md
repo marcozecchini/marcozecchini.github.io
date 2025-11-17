@@ -1,3 +1,10 @@
+---
+title: Mark's cakewalk
+tags:
+  - teaching
+  - greedy
+---
+
 ## Problem Description
 
 Marc loves cupcakes, but he also likes to stay fit.  

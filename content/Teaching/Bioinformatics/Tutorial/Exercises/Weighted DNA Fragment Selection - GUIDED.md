@@ -1,9 +1,10 @@
 ---
-title: ANSWERS -  Weighted DNA Fragment Selection
+title: Weighted DNA Fragment Selection - GUIDED
 draft: false
 tags:
   - teaching
 ---
+# Write the problem out - i.e., understand the problem
 ### **What is the problem?**
 
 We have several DNA fragments, each with a **start**, **end**, and **quality score**.  
@@ -17,15 +18,17 @@ Given intervals $(s_i, f_i, w_i)$, find  $\max \sum w_i$  such that no two chose
 First, we need to find a way to identify sub-problems. 
 
 Every fragment has a start and an end position, and some of them overlap.  
-If we want to build an optimal solution step by step, we need a clear order to process them.  
-Otherwise, we wouldn’t know which fragments are compatible or which combinations we’ve already evaluated.
 
-- How can we guarantee that, when we evaluate a fragment, all the possible compatible choices have already been considered?
-- How can we quickly find the last fragment that doesn’t overlap with the current one? 
+If we want to build an optimal solution step by step, we need a clear **order** to process them.  Otherwise, we wouldn’t know which fragments are compatible or which combinations we’ve already evaluated.
 
-The natural answer is to **sort all fragments by their end position**.
+> [!question] Question
+> - How can we guarantee that, when we evaluate a fragment, all the possible compatible choices have already been considered?
+> - How can we quickly find the last fragment that doesn’t overlap with the current one? 
 
-When the fragments are **sorted by end position**, the problem of finding the optimal subset up to fragment `i` depends only on:
+> [!note]- Answer
+> The natural answer is to **sort all fragments by their end position**.
+
+When the fragments are **sorted**, the problem of finding the optimal subset up to fragment `i` depends only on:
 
 - the **best solution without using fragment i** (`dp[i-1]`), and
     
@@ -56,12 +59,18 @@ Algorithm outline:
 1. Sort fragments by `end`.
 2. For each fragment, find `p(i)` = the last fragment that ends before `start[i]`.
 3. Apply the recurrence above.
-    
 
-Time complexity: `O(n log n)` (sorting + binary search for `p(i)`).  
-Result for the example: **14**.
+> [!question] Question
+> Which is the time complexity of the algorithm?
+
+> [!answer]- Answer
+> Time complexity: `O(n log n)` (sorting + binary search for `p(i)`).  
+
 
 ---
+# Recurrence
+
+Let us understand more in depth how the recurrence works.
 ### **Define the Base Case**
 
 The simplest possible situation is when we have **no fragments** to consider.  
@@ -94,7 +103,7 @@ The same decision logic applies **at every step**:
 
 - At **step n−1**, you decide whether to include fragment `n−1` or skip it.
     
-    - If you include it: add `w_{n−1}` + `dp[p(n−1)]`.
+    - If you include it: add $w_{n−1}$ + `dp[p(n−1)]`.
         
     - If you skip it: use `dp[n−2]`.
         
@@ -109,9 +118,15 @@ So at every `i`, the **decision** is always:
 > _Include fragment i (and jump back to the last compatible one) or exclude it._
 
 ---
+# Dimension of the memoisation array
+
+Remember that in Dynamic Programming, `Programming` means that we compute a table with all the solutions of the subproblems of our problem until we reach the solution of the instance of our problem.
+
+Since we need to store all the solutions (i.e., memoisation) we need to understand which is the dimension of our table (1 row and n columns --> 1 D, m rows and n columns --> 2 D, m rows and n columns and j values for each cell --> 3D and so on..)
+
 ### **How many state variables do we have in our subproblems?**
 
-Our subproblem only needs to remember _how far_ we’ve gone in the sorted list of fragments.
+Our subproblem only needs to remember **how far** we’ve gone in the sorted list of fragments.
 
 We have **1 state variable** in our subproblem:
 
@@ -134,4 +149,7 @@ So there are **n + 1** possible subproblems (including the base case `i = 0`).
 Each subproblem is solved in $O(1)$ once we know `p(i)` 
 and computing all `p(i)` values requires $O(n \log n)$ (via binary search after sorting).
 
+--- 
+# Now Code it!
 
+Once we got the solution to these questions we can code/sketch in pseudocode our algorithm!
