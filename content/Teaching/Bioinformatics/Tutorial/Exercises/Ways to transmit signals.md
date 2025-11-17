@@ -5,7 +5,6 @@ tags:
   - teaching
   - DP
 ---
-
 In a synthetic biology experiment, a micro-organism is trying to send an internal signal across a chain of molecular “checkpoints”.  
 Each checkpoint can be activated in two different ways:
 
