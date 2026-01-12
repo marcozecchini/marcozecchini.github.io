@@ -62,7 +62,7 @@ The course will be evaluated based on the performance of a written test. Here so
 
 | Date       | Note                                                                                                                                                                              | Location |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| 12/01/2026 |                                                                                                                                                                                   | TBD      |
+| 12/01/2026 | https://drive.google.com/file/d/1wy5UD-MHYeZgcZmzBeRT36wUY638Y-2I/view?usp=sharing                                                                                                | TBD      |
 | 09/02/2026 |                                                                                                                                                                                   | TBD      |
 | 13/04/2026 | Extraordinary session only for students respecting this regulation: Article 40, Paragraph 6, [https://www.uniroma1.it/en/content/exams](https://www.uniroma1.it/en/content/exams) | TBD      |
 | 08/06/2026 |                                                                                                                                                                                   | TBD      |
