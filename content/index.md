@@ -6,7 +6,7 @@ title: Home page
 
 Hi all, I am Marco Zecchini.
 
-I am a Research Assistant at the [Department of Computer, Control and Management Engineering (DIAG)](https://www.dis.uniroma1.it/) of [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
+I am an Assistant Professor at the [Department of Computer, Control and Management Engineering (DIAG)](https://www.dis.uniroma1.it/) of [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 My research interests are Cryptography and Blockchain technology.
 
