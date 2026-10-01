@@ -1,6 +1,9 @@
 ---
 title: "Tutorial 1:  6-10-2025"
 draft: false
+tags:
+  - python
+  - teaching
 ---
 # Visual Studio Code
 
