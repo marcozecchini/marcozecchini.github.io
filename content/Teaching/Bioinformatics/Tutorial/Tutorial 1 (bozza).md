@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1:  5-10-2025"
-draft: false
+draft: true
 tags:
   - python
   - teaching
@@ -10,8 +10,6 @@ tags:
 In this course we will use Google Colab for the practical sessions. Colab runs in your browser, so there is nothing to install. You only need a Google account.
 
 If you have never used it, watch this short introduction before the first lab (about 12 minutes): <https://www.youtube.com/watch?v=tQBDr5fdtXo>
-
-Together, we will see the structure of a Google Colab notebook. [Click here](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 
 How to work with the course notebooks:
 
@@ -35,7 +33,6 @@ The preliminary step of this tutorial requires to install [Visual Studio Code](h
 3. Create an empty folder for our exercises and open it with `File > Open File...` menu on Visual Studio
 
 Great! We are ready to move on to the next part of the tutorial.
-
 ## Exercise 1
 Write a simple function that, given a list of numbers, outputs a histogram based on these numbers, using asterisks to draw it.
 

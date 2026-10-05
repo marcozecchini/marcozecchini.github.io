@@ -4,7 +4,28 @@ draft: true
 tags:
   - teaching
 ---
+# Pandas
+A smarter and more abstract tool to handle `.csv` files is another Python tool named [Pandas](https://pandas.pydata.org/)
 
+We use Pandas to:
+1. **Manipulate** data. 
+2. **Visualize and plot** data combined with [matplotlib](https://matplotlib.org/) library (next time)
+
+## Install Pandas
+Install pandas following the instruction available at this [web page](https://pandas.pydata.org/docs/getting_started/install.html#installing-from-pypi).
+## Manipulate data
+Let us take a look at this [presentation](https://docs.google.com/presentation/d/1QPzic2Tw2mjvuKsbnQWSEt3qYdIZPMmD/edit?usp=drive_link&ouid=113320648382378755454&rtpof=true&sd=true).
+
+**Keeping Pandas API Documentation at hand with this [link](https://pandas.pydata.org/docs/reference/index.html)**, let us see Pandas in action now:
+1. Create a file named `ManipulateVisualize.ipynb`
+2. Run the Jupiter Notebook in Visual Studio Code ([more details here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)) on the `.csv` dataset [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing)
+3. Follow and repeat my instructions on your Jupiter!
+
+## Exercise
+
+Given [Salary Data.csv](https://drive.google.com/file/d/1jxSWVRcQ4MC_rHYZFEYnjmei9Fe9p4w2/view?usp=sharing):
+- **Find the average salary by education level.**
+- **Find the person(s) with the highest salary** and display their `Job Title` and `Years of Experience`
 ---
 
 https://www.w3resource.com/python-exercises/map/index.php
