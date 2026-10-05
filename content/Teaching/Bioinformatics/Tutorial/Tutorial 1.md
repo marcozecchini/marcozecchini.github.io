@@ -26,16 +26,6 @@ Access this Google Colab notebook at this [link](https://drive.google.com/file/d
 
 # Other Python Exercises
 
-# Visual Studio Code
-
-The preliminary step of this tutorial requires to install [Visual Studio Code](https://code.visualstudio.com/docs).
-1. We can install Visual Studio from this [web page](https://code.visualstudio.com/docs/setup/setup-overview)
-2. We can handle `.py` files according to this [page](https://code.visualstudio.com/docs/languages/python). In this tutorial execute this [section](https://code.visualstudio.com/docs/languages/python#_run-python-code)
-	1. Install [Jupyter Notebook](https://code.visualstudio.com/docs/languages/python#_jupyter-notebooks) plugin
-3. Create an empty folder for our exercises and open it with `File > Open File...` menu on Visual Studio
-
-Great! We are ready to move on to the next part of the tutorial.
-
 ## Exercise 1
 Write a simple function that, given a list of numbers, outputs a histogram based on these numbers, using asterisks to draw it.
 
