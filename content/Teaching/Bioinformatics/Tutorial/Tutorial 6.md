@@ -1,17 +1,25 @@
 ---
-title: "Tutorial 6:  17-11-2024"
-draft: false
+title: "Tutorial 5:  10-11-2024"
+draft: true
 tags:
   - teaching
 ---
+## Biopython
+
+Open this [Gdrive folder](https://drive.google.com/drive/folders/1efliuTqnLR-SFP1vtZT3Ws1FVzjRrcJ2?usp=sharing), open the Jupiter Notebook and let us execute the command together.
+
+Then, let's do the exercise at the bottom of the notebook. 
+
+## Dynamic Programming exercise
+
+Solve these exercises:
+* [[Ways to climb stairs]]
+* [[Weighted DNA Fragment Selection]]
+
 ## Map Reduce
 
-Open this [notebook](https://drive.google.com/file/d/1Cf3UWGZPiOG9iXvIXpsh2jIlAmu6WlFz/view?usp=sharing) and let's do the exercises at the bottom of the notebook. 
+Open this [Gdrive folder](https://drive.google.com/drive/folders/1mHLPa0EIPznmFHj_1JctEq9v35sfKZCS?usp=sharing), open the Jupiter Notebook and let us execute the command together.
 
-## Dynamic Programming Exercise
+Then, let's do the exercise at the bottom of the notebook. 
 
-Solve this exercise: [[Weighted DNA Fragment Selection]]
-  
-## Biopython for sequence alignment
 
-Open this [notebook](https://drive.google.com/file/d/1R1pJfK2Lsw2JejsIQTg7dMPqVsemc32s/view?usp=sharing)and let us look how to execute the global sequence alignment in DNA strings with Biopython. 

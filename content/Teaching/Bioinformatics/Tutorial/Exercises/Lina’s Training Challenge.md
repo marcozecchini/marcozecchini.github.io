@@ -30,15 +30,15 @@ Suppose the energy costs are:
 
 `[4, 2, 7]`
 
-If Lina performs them in this order (2, 4, 7):
+If Lina performs them in this order (7, 4, 2):
 
 |Order|Energy|Total energy used (`e × (j + 1)`)|Cumulative total|
 |---|---|---|---|
-|1|2|2 × 1 = 2|2|
-|2|4|4 × 2 = 8|10|
-|3|7|7 × 3 = 21|31|
+|1|7|7 × 1 = 7|7|
+|2|4|4 × 2 = 8|15|
+|3|2|2 × 3 = 6|21|
 
-✅ Minimum total energy = **31**
+✅ Minimum total energy = **21**
 
 ---
 
@@ -63,7 +63,7 @@ Write the function:
 
 ### Sample Output 1
 
-`31`
+`21`
 
 ---
 
@@ -73,7 +73,7 @@ Write the function:
 
 ### Sample Output 2
 
-`41`
+`29`
 
 ---
 
