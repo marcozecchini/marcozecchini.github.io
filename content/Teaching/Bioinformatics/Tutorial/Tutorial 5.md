@@ -36,10 +36,12 @@ for i in range(N):
 > What is the time complexity of the following code: 
 
 ```python
-k = 0;
-for i in range(n//2,n):
-  for j in range(2,n,pow(2,j)):
-        k = k + n / 2;
+k = 0
+for i in range(n//2, n):
+  j = 2
+  while j <= n:
+    j = j * 2
+    k = k + n / 2
 ```
 
 # Greedy Algorithms
