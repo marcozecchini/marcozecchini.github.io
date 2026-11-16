@@ -80,15 +80,19 @@ def maxFragmentQuality(intervals: Jobs) -> int:
 [[Weighted DNA Fragment Selection - GUIDED]]
 ##  Guided steps
 
-1. Sort the fragments by **end position** (to sort `Job` objects use the function [`sorted`](https://www.w3schools.com/python/ref_func_sorted.asp) properly setting `key`).
+1. **Sort the fragments by end position** (to sort `Job` objects use the function [`sorted`](https://www.w3schools.com/python/ref_func_sorted.asp), properly setting `key`). Why the end? In this order, the fragments that do **not** overlap with fragment `i` are always the **first ones** in the list, up to some position `p(i)`: everything after `p(i)` and before `i` overlaps with it. So "what I can still use if I select `i`" is simply a shorter prefix of the list, a smaller problem we have already solved. Try sorting `(1, 10)`, `(2, 3)`, `(4, 5)` by **start** instead: which earlier fragments are compatible with `(4, 5)`?
 2. For each fragment `i`, find the last fragment `p(i)` that finishes **before** `i` starts.
-3. Define:  
-			$dp[i] = \max( w_i + dp[p(i)],\ dp[i-1] )$  
-    
-    where:
-    - `dp[i]` = best total quality considering the first `i` fragments,
-    - `dp[p(i)]` = best total quality up to the last non-overlapping fragment.
-        
+3. **Decide what to do with fragment `i`.** Imagine you have already solved the problem for every shorter prefix of the sorted list: you know the best total quality using only the first fragment, only the first two, and so on up to the first `i-1`. Now consider fragment `i`. There are only two possibilities:
+    - **You do not select it.** Then nothing changes: the best you can do is what you could already do with the first `i-1` fragments.
+    - **You select it.** You gain its quality score, but every fragment that overlaps with it is now forbidden. Because the list is sorted by end position, the fragments you can still use are exactly the ones up to `p(i)`. So the total is the score of fragment `i` plus the best you could do with the fragments up to `p(i)`.
+
+    The best total for the first `i` fragments is the **larger** of these two values. Call it `dp[i]` and store it, so that later fragments can reuse it without recomputing it.
+
+    Before writing any code:
+    - fill the `dp` table **by hand** for the example above, one fragment at a time, writing next to each cell whether you selected the fragment or not;
+    - write the rule above as a **formula** for `dp[i]`;
+    - what is the value of `dp` when there are **no fragments** to consider?
+
 Use a **1D array `dp`** for tabulation.
 
     

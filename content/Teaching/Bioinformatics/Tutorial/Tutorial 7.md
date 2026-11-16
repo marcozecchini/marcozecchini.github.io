@@ -12,6 +12,8 @@ Open this [notebook](https://drive.google.com/file/d/1Cf3UWGZPiOG9iXvIXpsh2jIlAm
 
 Solve this exercise: [[Weighted DNA Fragment Selection]]
   
-## Biopython for sequence alignment
+## Biopython
 
-Open this [notebook](https://drive.google.com/file/d/1R1pJfK2Lsw2JejsIQTg7dMPqVsemc32s/view?usp=sharing)and let us look how to execute the global sequence alignment in DNA strings with Biopython. 
+Open this [Gdrive folder](https://drive.google.com/drive/folders/1efliuTqnLR-SFP1vtZT3Ws1FVzjRrcJ2?usp=sharing), open the Jupiter Notebook and let us execute the command together.
+
+Then, let's do the exercise at the bottom of the notebook. 
