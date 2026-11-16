@@ -1,6 +1,6 @@
 ---
-title: "Tutorial 5:  10-11-2024"
-draft: true
+title: "Tutorial 5:  16-11-2024"
+draft: false
 tags:
   - teaching
 ---
@@ -13,7 +13,7 @@ Then, let's do the exercise at the bottom of the notebook.
 ## Dynamic Programming exercise
 
 Solve these exercises:
-* [[Ways to climb stairs]]
+* [[Ways to absorb energy]]
 * [[Weighted DNA Fragment Selection]]
 
 ## Map Reduce

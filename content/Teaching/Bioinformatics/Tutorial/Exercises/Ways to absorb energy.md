@@ -1,5 +1,5 @@
 ---
-title: Ways to climb stairs
+title: Ways to absorb energy
 draft: false
 tags:
   - teaching
@@ -20,7 +20,7 @@ For example, absorbing a large packet first (`2 + 1`) produces a different inter
 ---
 
 ## Problem Description
-Given an integer `n`, representing the target energy level (or number of steps), determine how many **distinct ways** exist to reach exactly that level if the cell can take either **1-step** or **2-steps** at a time.
+Given an integer `n`, representing the target energy level, determine how many **distinct ways** exist to reach exactly that level if at each step the cell can absorb either a **small packet** (+1) or a **large packet** (+2).
 
 For example:
 - If `n = 3`, the possible combinations are:
@@ -41,7 +41,7 @@ def countWays(n: int) -> int:
 
 ### Parameters
 
-- `n`: total number of steps (energy units)   
+- `n`: target energy level (in energy units)   
 
 ### Returns
 
@@ -72,7 +72,7 @@ Think recursively first:
 
 $ways(n) = ways(n-1) + ways(n-2)$
 
-(because from step `n` you could have come either from `n-1` or from `n-2`)
+(because to reach level `n` the cell was either at level `n-1`, and absorbed a small packet, or at level `n-2`, and absorbed a large packet)
 
 Then convert it into an **iterative tabulation** with a **1D array**.
 

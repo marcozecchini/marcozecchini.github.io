@@ -1,5 +1,5 @@
 ---
-title: Tutorial 5  2-11-2026
+title: Tutorial 6  2-11-2026
 draft: false
 tags:
   - teaching

@@ -40,7 +40,7 @@ Each line represents: `(start, end, weight)`.
 
 **Output**
 ```
-10
+14
 ````
 
 **Explanation**
@@ -103,23 +103,22 @@ Use these parts in python
 # returns -1 if all jobs before index conflict with it.
 
 def binarySearch(jobs, start_index):
-	# Initialize 'lo' and 'hi' for Binary Search	
-	lo = 0
-	hi = start_index - 1
-	# Perform binary Search iteratively
-	while lo <= hi:
-		mid = (lo + hi) // 2
-		if jobs[mid].finish <= jobs[start_index].start:
-		if jobs[mid + 1].finish <= jobs[start_index].start:
-		lo = mid + 1
-		else:
-		
-			return mid	
-		else:
-			hi = mid - 1
-	return -1
+    # Initialize 'lo' and 'hi' for Binary Search
+    lo = 0
+    hi = start_index - 1
+    # Perform binary Search iteratively
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        if jobs[mid].finish <= jobs[start_index].start:
+            if jobs[mid + 1].finish <= jobs[start_index].start:
+                lo = mid + 1
+            else:
+                return mid
+        else:
+            hi = mid - 1
+    return -1
 
-  
+
 # Driver code to test above function
 jobs = [Job(1, 2, 50), Job(3, 5, 20), Job(6, 19, 100), Job(2, 100, 200)]
 print("Optimal profit is"),
