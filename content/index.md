@@ -14,8 +14,7 @@ My research interests are Cryptography and Blockchain technology.
 
 Take a look to the list below...
 
-
-<iframe src="https://bibbase.org/show?bib=https://dblp.org/pid/258/2353.bib&noBootstrap=1" width="100%" height="400" border="none"></iframe>
+<iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FHWvwmizyThLnADRTW&noBootstrap=1"></iframe>
 
 ... or visit my [DBLP profile](https://dblp.org/pid/258/2353.html).
 

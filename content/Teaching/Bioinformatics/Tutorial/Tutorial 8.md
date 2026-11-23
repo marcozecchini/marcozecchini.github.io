@@ -1,11 +1,15 @@
 ---
-title: "Tutorial 7:  24-11-2024"
+title: "Tutorial 8:  26-11-2024"
 draft: true
 tags:
   - teaching
 ---
-## Graphs Algorithms
+## Dynamic Programming Exercise
 
-Open this [notebook](https://drive.google.com/file/d/1cRjLI0G0A4nt0ZVwzGhZBJT2yWhXVn9I/view?usp=sharing) and let us execute the command together.
+Solve this exercise: [[Modified Fibonacci with DP]]
+  
+## Biopython
 
-Then, let's do the exercise in this second [notebook](https://drive.google.com/file/d/1PmUGtNi_vgP7GASZjx35VXKexyWBztI7/view?usp=sharing). 
+Open this [Gdrive folder](https://drive.google.com/drive/folders/1efliuTqnLR-SFP1vtZT3Ws1FVzjRrcJ2?usp=sharing), open the Jupiter Notebook and let us execute the command together.
+
+Then, let's do the exercise at the bottom of the notebook. 
